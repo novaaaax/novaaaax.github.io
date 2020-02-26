@@ -1,5 +1,5 @@
 #nav {
-    background-color: grey !important;
+    background-color: #242882 !important;
     color: white !important;
     padding-bottom: 10px;
 }
@@ -9,11 +9,12 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: #242882;
 }
 
 main {
-    background-color: white;
+    background-color: #99738e;
+    border-radius: 25px;
     margin-top: 10px;
 }
 
@@ -50,7 +51,7 @@ h1 {
 }
 
 .button {
-    color: black;
+    color: white;
     margin-left: 15px;
 }
 
