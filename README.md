@@ -8,6 +8,7 @@ It also contains a "contact" page that will allow people to get in contact with 
 
 ### Usage:
 Navigate the website to find projects that I have contributed to, learn a bit about me and find my contact information.
+![img](website.png)
 
 ### Technologies Used/Badges:
 ![img](https://img.shields.io/badge/html-used-red)
