@@ -1,21 +1,45 @@
-#nav {
-    background-color: #5C7BFF !important;
-    color: white !important;
+#navbar {
+    background-color: #e9ecef !important;
     padding-bottom: 10px;
 }
 
-.bold {
-    font-weight: bold;
+#brief {
+    padding-top: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #5C7BFF;
+    background-color: #768A95;
 }
 
-main {
-    background-color: #5497E8;
-    border-radius: 25px;
-    margin-top: 10px;
+.whitespace {
+    padding-bottom: 30px;
+}
+
+.btn {
+
+}
+
+#brief {
+    margin-top: 20px;
+}
+
+#aboutjumbo {
+    border-radius: .3rem;
+}
+
+#projects {
+    padding-bottom: 25px;
+}
+
+#aboutme {
+}
+
+#contact {
+    background-color: #e9ecef;
 }
 
 .send {
@@ -27,9 +51,28 @@ main {
     height: 150px;
 }
 
-#mainimg {
+#project1 {
     position: relative;
     text-align: center;
+    background-color: #5497E8;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#readme {
+    position: relative;
+    text-align: center;
+    background-color: #5497E8;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+#notesapp {
+    position: relative;
+    text-align: center;
+    background-color: #5497E8;
+    border-radius: 25px;
+    margin-top: 10px;
 }
 
 .text {
@@ -58,22 +101,4 @@ h1 {
 .button:hover {
     color: white;
     text-decoration: none;
-}
-
-.fas {
-    float: right;
-    margin-top: 5px;
-    color: red;
-}
-
-.far {
-    color: red;
-}
-
-.fab {
-    color: red;
-}
-
-.email {
-    color: red;
 }

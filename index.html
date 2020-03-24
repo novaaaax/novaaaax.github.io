@@ -10,43 +10,120 @@
 
 <body>
     <header>
-        <nav id="nav" class="col-12">
-            <a class="button" href="#">My Portfolio</a>
-            <a class="button" href="about.html">About</a>
-            <a class="button" href="contact.html">Contact</a>
-            <a class="button" href="resume.pdf" target="_blank">My Resume <i class="far fa-file-pdf"></i></a>
-            <a><i class="fas fa-meteor"></i></a>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Intro<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutme">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf">My Resume <i class="fas fa-external-link-alt"></i></a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
-    <main id="indexmain" class="container">
-        <h1 class="container">
-            My Portfolio
-        </h1>
-        <section id="mainimg" class="container row">
-            <figure class="col-lg col-md col-sm col-12">
-                <figcaption class="container">Soundtrack That Movie!</figcaption><a
-                    href="https://novaaaax.github.io/soundtrack-that-movie/" target="_blank"><img class="img"
-                        src="project1.jpeg" alt="placeholder"></a>
-            </figure>
-            <figure class="col-lg col-md col-sm col-12">
-                <figcaption class="container">Coming Soon!</figcaption><img class="img"
-                    src="https://via.placeholder.com/150C/O https://placeholder.com/" alt="placeholder">
-            </figure>
-            <figure class="col-lg col-md col-sm col-12">
-                <figcaption class="container">Coming Soon!</figcaption><img class="img"
-                    src="https://via.placeholder.com/150C/O https://placeholder.com/" alt="placeholder">
-            </figure>
-            <figure class="col-lg col-md col-sm col-12">
-                <figcaption class="container">Coming Soon!</figcaption><img class="img"
-                    src="https://via.placeholder.com/150C/O https://placeholder.com/" alt="placeholder">
-            </figure>
+    <section id="whitespace" class="container">
+        <p>words</p>
+        <p>words</p>
+    </section>
+    <section id="brief" class="container">
+        <div class="jumbotron">
+            <h2 class="display-4">Welcome!</h2>
+            <p class="lead">My name is Edwin Genova and I'm an aspiring software developer currently studying full stack
+                development at UPENN. Below
+                you will find some of my favorite projects with deployed links (click the images) and links to the repo
+                on Github.</p>
+            <hr class="my-4">
+            <p>Here is the link to my Github if you are interested in checking out some of the other projects I've
+                worked on.</p>
+            <a class="btn btn-dark btn-lg" href="https://github.com/novaaaax" target="_blank" role="button"><i
+                    class="fab fa-github-alt"></i></a>
+        </div>
+        <section id="projects" class="container row">
+            <div class="card container" style="width: 18rem;">
+                <a href="https://novaaaax.github.io/soundtrack-that-movie/" target="_blank"><img src="project1.jpeg"
+                        class="card-img-top" alt="Screenshot of sountrack that movie website"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Soundtrack That Movie!</h5>
+                    <p class="card-text">This application allows users to search for songs/soundtracks of their favorite
+                        movies
+                        and TV shows.</p>
+                    <a href="https://github.com/novaaaax/soundtrack-that-movie" target="_blank" class="btn btn-dark"><i
+                            class="fab fa-github-alt"></i> Repo</a>
+                </div>
+            </div>
+            <div class="card container" style="width: 18rem;">
+                <a href="https://car-amplify.herokuapp.com/" target="_blank"><img src="project2screenshot.png"
+                        class="card-img-top" alt="Screenshot of car amplify"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Car Amplify</h5>
+                    <p class="card-text">This application allows users to get information about a wide selection of cars
+                        using our database and a third party API.</p>
+                    <a href="https://github.com/novaaaax/Car_amplify" class="btn btn-dark"><i
+                            class="fab fa-github-alt"></i> Repo</a>
+                </div>
+            </div>
+            <div class="card container" style="width: 18rem;">
+                <img src="readmescreenshot.png" class="card-img-top" alt="Screenshot of my readme generator in action!">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This software allows users to easily generate a basic outline for a readme
+                        which
+                        they can then customize to fit whatever project their working on. I personally find this to be
+                        super
+                        useful and it saves me a lot of time! (No deployed link, it's a command line tool).</p>
+                    <a href="https://github.com/novaaaax/readme-generator" class="btn btn-dark"><i
+                            class="fab fa-github-alt"></i> Repo</a>
+                </div>
+            </div>
         </section>
-    </main>
-    <footer class="container">
-        <p>Developed by Edwin Genova</p>
-    </footer>
-    <script src="https://kit.fontawesome.com/608aa5cbbb.js" crossorigin="anonymous"></script>
+    </section>
+    <section id="aboutme" class="container">
+        <div id="aboutjumbo" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h2 class="display-4">A little bit about me:</h2>
+                <p class="lead">I live in Philadelphia, PA. Some of my hobbies include video games, hiking and
+                    everything
+                    astronomy. My passion is software
+                    development! Currently I'm skilled in HTML, CSS, JavaScript, Node.js, MySQL, MongoDB and Robo 3T.
+                    Soon I will be learning React as well.
+                    Another
+                    language I'm super interested in learing is Python. As stated above, I'm currently studying full
+                    stack development at UPENN, but I'm also still searching for opportunities and experience.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>My contact info:</h2>
+            <ul>
+                <li>
+                    <strong>Email:</strong> <a href="mailto:edwingenova@gmail.com"
+                        target="_blank">edwingenova@gmail.com</a>
+                </li>
+                <li>
+
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -56,7 +133,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-        <script src="=script.js"></script>
+    <script src="https://kit.fontawesome.com/608aa5cbbb.js" crossorigin="anonymous"></script>
+    <script src="three.r95.min.js"></script>
+    <script src="vanta.dots.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
