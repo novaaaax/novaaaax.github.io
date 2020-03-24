@@ -19,10 +19,6 @@ body {
     padding-bottom: 30px;
 }
 
-.btn {
-
-}
-
 #brief {
     margin-top: 20px;
 }
@@ -35,70 +31,7 @@ body {
     padding-bottom: 25px;
 }
 
-#aboutme {
-}
-
 #contact {
     background-color: #e9ecef;
-}
-
-.send {
-    margin-bottom: 10px;
-}
-
-#photo {
-    width: 150px;
-    height: 150px;
-}
-
-#project1 {
-    position: relative;
-    text-align: center;
-    background-color: #5497E8;
-    border-radius: 25px;
-    margin-top: 10px;
-}
-
-#readme {
-    position: relative;
-    text-align: center;
-    background-color: #5497E8;
-    border-radius: 25px;
-    margin-top: 10px;
-}
-
-#notesapp {
-    position: relative;
-    text-align: center;
-    background-color: #5497E8;
-    border-radius: 25px;
-    margin-top: 10px;
-}
-
-.text {
-    text-align: center;
-}
-
-h1 {
-    text-decoration: underline;
-}
-
-.img {
-    width: 150px !important;
-    height: 150px !important;
-}
-
-.img:hover {
-    transform: rotate(135deg) scale(1.2);
-    transition: .5s all;
-}
-
-.button {
-    color: white;
-    margin-left: 15px;
-}
-
-.button:hover {
-    color: white;
-    text-decoration: none;
+    border-radius: .3rem;
 }
