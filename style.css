@@ -27,7 +27,7 @@ body {
     border-radius: .3rem;
 }
 
-#projects {
+.row {
     padding-bottom: 25px;
 }
 
