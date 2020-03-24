@@ -15,9 +15,10 @@ body {
     background-color: #768A95;
 }
 
-.whitespace {
+#whitespace {
     padding-bottom: 30px;
     color: #768A95;
+    background-color: #768A95;
 }
 
 #brief {
